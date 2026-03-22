@@ -1,0 +1,17 @@
+<robot name="red_triangle_hole">
+    <link name="red_triangle_hole">
+        <visual>
+            
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/small_red_triangle_hole.obj" scale="1.000000 1.000000 1.0" />
+            </geometry>
+        </visual>
+        <collision>
+            
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/small_red_triangle_hole.obj" scale="1.000000 1.000000 1.0" />
+            </geometry>
+            <sdf resolution="256" />
+        </collision>
+    </link>
+</robot>

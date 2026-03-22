@@ -1,0 +1,17 @@
+<robot name="green_round_hole_1_5in">
+    <link name="green_round_hole_1_5in">
+        <visual>
+            
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/green_round_hole_1_5in.obj" scale="1.000000 1.000000 1.0" />
+            </geometry>
+        </visual>
+        <collision>
+            
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/green_round_hole_1_5in.obj" scale="1.000000 1.000000 1.0" />
+            </geometry>
+            <sdf resolution="256" />
+        </collision>
+    </link>
+</robot>

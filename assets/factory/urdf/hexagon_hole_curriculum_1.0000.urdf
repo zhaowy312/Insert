@@ -1,0 +1,18 @@
+<robot name="hexagon_hole">
+    <link name="hexagon_hole">
+        <visual>
+            
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/hexagon_hole.obj" scale="1.000000 1.000000 1.0" />
+            </geometry>
+        </visual>
+        <collision>
+            
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/hexagon_hole.obj" scale="1.000000 1.000000 1.0" />
+            </geometry>
+                        <sdf resolution="256" />
+
+        </collision>
+    </link>
+</robot>

@@ -1,0 +1,15 @@
+<robot name="factory_rectangular_hole_16mm">
+    <link name="factory_rectangular_hole_16mm">
+        <visual>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/factory_square_hole_32mm_subdiv_3x.obj" scale="1.000000 1.000000 1.0" />
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="../mesh/factory_insertion/factory_square_hole_32mm_subdiv_3x.obj" scale="1.000000 1.000000 1.0" />
+            </geometry>
+            <sdf resolution="256" />
+        </collision>
+    </link>
+</robot>
